@@ -1,0 +1,27 @@
+deny = [
+    "unsafe_code",
+]
+
+warn = [
+    "clippy::allow_attributes_without_reason",
+    "clippy::cargo_common_metadata",
+    "clippy::case_sensitive_file_extension_comparisons",
+    "clippy::create_dir",
+    "clippy::empty_structs_with_brackets",
+    "clippy::filetype_is_file",
+    "clippy::if_not_else",
+    "clippy::match_bool",
+    "clippy::match_same_arms",
+    "clippy::missing_docs_in_private_items",
+    "clippy::missing_errors_doc",
+    "clippy::missing_panics_doc",
+    "clippy::multiple_inherent_impl",
+    "clippy::redundant_else",
+    "clippy::str_to_string",
+    "clippy::string_slice",
+    "clippy::string_to_string",
+    "clippy::unused_async",
+    "clippy::unused_self",
+    "missing_docs",
+    "unused_import_braces"
+]

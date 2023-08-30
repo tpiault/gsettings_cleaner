@@ -1,0 +1,19 @@
+[package]
+name = "gsettings_cleaner"
+description = "Uses GSettings to reset settings that are set to their default value so that they don't count as manually set by the user."
+version = "1.0.0"
+authors = ["Timéo Piault"]
+repository = "https://github.com/tpiault/gsettings_cleaner/"
+readme = "README.md"
+edition = "2021"
+categories = ["command-line-utilities"]
+keywords = ["gsettings"]
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.4.1", features = ["derive"] }
+gio = "0.18.1"
+
+[[bin]]
+name = "gsettings_cleaner"
+path = "main.rs"
